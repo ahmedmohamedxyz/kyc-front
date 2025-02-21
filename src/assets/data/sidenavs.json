@@ -1,0 +1,17 @@
+[
+    {
+        "title": "main_pages",
+        "menus": [
+            { 
+                "icon": "account_circle", 
+                "text": "admins", 
+                "path": "/admin-list"
+            },
+            { 
+                "icon": "account_circle", 
+                "text": "agents", 
+                "path": "/agent-list"
+            }
+        ]
+    }
+]
