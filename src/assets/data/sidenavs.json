@@ -11,6 +11,16 @@
                 "icon": "account_circle", 
                 "text": "agents", 
                 "path": "/agent-list"
+            },
+            { 
+                "icon": "account_circle", 
+                "text": "customers", 
+                "path": "/customer-list"
+            },
+            { 
+                "icon": "account_circle", 
+                "text": "sims", 
+                "path": "/sim-list"
             }
         ]
     }

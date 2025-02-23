@@ -17,7 +17,7 @@ import { TranslatorProvider } from "./context/Translator";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { LoginPage } from "./pages/auth";
 import { ErrorPage } from "./pages/others";
-import { AdminsListPage, MyAccountPage} from "./pages/main";
+import { AdminsListPage, CustomerAccountPage, CustomersListPage, MyAccountPage, SimsListPage} from "./pages/main";
 
 
 import { ToastContainer } from 'react-toastify';
@@ -37,6 +37,13 @@ const router = createBrowserRouter([
 
     { path: "/agent-list", element: <AgentsListPage /> },
     { path: "/agent-create", element: <AgentCreatePage /> },
+    
+    { path: "/customer-list", element: <CustomersListPage /> },
+    { path: "/customer-account/:id?", element: <CustomerAccountPage /> },
+
+    
+    { path: "/sim-list", element: <SimsListPage /> },
+
     
     { path: "/my-account", element: <MyAccountPage /> },
     { path: "/user-account/:id?", element: <UserAccountPage /> },

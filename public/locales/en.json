@@ -296,5 +296,15 @@
     "agents": "agents",
     "creation date": "creation date",
     "permission to add contract": "permission to add contract",
-    "create_new": "create new"
+    "create_new": "create new",
+    "customers": "customers",
+    "customers_list": "customers list",
+    "serial": "serial",
+    "customer_name": "customer name",
+    "phone_number": "phone number",
+    "nationality": "nationality",
+    "birth_date": "birth date",
+    "document_expiry_date": "document expiry date",
+    "submission_status": "submission status",
+    "document_type": "document type"
 }

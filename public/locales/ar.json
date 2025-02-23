@@ -296,5 +296,15 @@
     "agents": "الوكلاء",
     "creation date": "تاريخ الإنشاء",
     "permission to add contract": "إذن لإضافة عقد",
-    "create_new": "إنشاء جديد"
+    "create_new": "إنشاء جديد",
+    "customers": "العملاء",
+    "customers_list": "قائمة العملاء",
+    "serial": "التسلسل",
+    "customer_name": "اسم العميل",
+    "phone_number": "رقم الهاتف",
+    "nationality": "الجنسية",
+    "birth_date": "تاريخ الميلاد",
+    "document_expiry_date": "تاريخ انتهاء الوثيقة",
+    "submission_status": "حالة التقديم",
+    "document_type": "نوع الوثيقة"
 }

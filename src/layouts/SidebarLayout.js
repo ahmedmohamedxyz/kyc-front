@@ -84,6 +84,10 @@ export default function SidebarLayout() {
                                 return menuItem(menu,menuIndex);
                             }else if(localStorage.getItem('permissions').includes('list agent') && menu.text === 'agents'){
                                 return menuItem(menu,menuIndex);
+                            }else if(localStorage.getItem('permissions').includes('list customer') && menu.text === 'customers'){
+                                return menuItem(menu,menuIndex);
+                            }else if(localStorage.getItem('permissions').includes('list sim') && menu.text === 'sims'){
+                                return menuItem(menu,menuIndex);
                             }                       
 })}
                     </ul>
